@@ -60,7 +60,7 @@ header nav a {
   background-repeat: no-repeat;
 }
 
-.banner {
+.banner_1 {
   width: 100%;
   height: 800px;
 
@@ -76,7 +76,7 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: brown;
+  background-color: rgb(250, 250, 250);
 }
 
 .presentacion p {
@@ -99,9 +99,10 @@ header nav a {
 main {
   display: grid;
   width: 100%;
-  height: 900px;
-  background-color: chartreuse;
+  height: 2500px;
+  background-color: rgb(250, 250, 250);
   grid-template-columns: repeat(16, 1fr);
+  grid-template-rows:auto;
   margin-top: 5px;
   gap: 10px;
 
@@ -110,41 +111,84 @@ main {
 
 .imagen_1 {
   grid-column: 1/11;
-  grid-row: 1/8;
-  background-color: blueviolet;
-
+  grid-row: 1/23;
+  
+background-image: url(../img/smartphone/Bloom-and-wild-homepage-1.webp);
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 .imagen_2 {
 
   grid-column: 11/17;
-  grid-row: 1/6;
+  grid-row: 1/15;
   background-repeat: no-repeat;
-  background-color: black;
+ background-image: url(../img/smartphone/Replace-an-ocean-raw-copy.webp);
+ background-size: contain;
 
 }
 
 .imagen_3 {
-  background-color: chocolate;
+  
   grid-column: 1/6;
-  grid-row: 8/14;
+  grid-row: 23/55;
+  background-image: url(../img/smartphone/es-home-1.webp);
+  background-size: contain;
 }
 
 .imagen_4 {
-  background-color: chocolate;
+  
   grid-column: 6/11;
-  grid-row: 8/14;
+  grid-row: 23/40;
+  background-image: url(../img/smartphone/Showcase-Gif.webp);
+  background-size: contain;
 }
 
 .imagen_5 {
   background-color: rgb(30, 210, 150);
   grid-column: 11/17;
-  grid-row: 6/14;
+  grid-row: 15/40;
 }
-.imagen_6 {
-  background-color: rgb(70, 94, 15);
-  grid-column:1/6;
-  grid-row:15/20;
+
+.imagen_7 {
+  background-color: rgb(30, 42, 210);
+  grid-column: 1/6;
+  grid-row: 55/70;
+}
+.imagen_8 {
+  background-color: rgb(210, 30, 114);
+  grid-column: 6/17;
+  grid-row: 40/70;
+}
+
+.banner_2{
+width:100%;
+background-color: rgb(250, 250, 250);
+height:300px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner_2 .connect{
+width:150px;
+height:60px;
+margin-top: 20px;
+background-color: rgb(250, 250, 250);
+text-align: center;
+align-items: center;
+border: 1px solid black;
+line-height: 60px;
+display: inline-block;
+text-decoration: none;
+color: black;
+}
+footer{
+width: 100%;
+height:300px;
+background-color: rgb(226, 223, 223);
+
+
 }
 
 
